@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AdventOfCode2015Day5.Core
+namespace AdventOfCode2015Day5
 {
     class Program
     {

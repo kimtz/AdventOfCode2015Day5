@@ -8,7 +8,7 @@ namespace AdventOfCode2015Day5.Core
     {
         public IEnumerable<string> ReadSantasStringList()
         {
-            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Brannstrom.AdventOfCode.Day5.input.txt"))
+            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("input.txt"))
             using (var reader = new StreamReader(stream))
                 while (reader.Peek() >= 0)
                     yield return reader.ReadLine();
